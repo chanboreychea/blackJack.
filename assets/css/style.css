@@ -80,7 +80,7 @@ body {
 .wrapper .circle-1 {
   position: absolute;
   bottom: 100px;
-  left: 60%;
+  left: 50%;
   right: 10vw;
   width: 100px;
   height: 100px;
@@ -107,8 +107,6 @@ header {
   font-size: 50px;
   font-family: "logoFont", sans-serif;
   color: var(--black-color);
-  /* -webkit-text-stroke: 2px #c4a667;
-  -webkit-text-fill-color: white; */
 }
 
 .nav_menu {
@@ -152,6 +150,17 @@ header {
   align-items: center;
   gap: 20px;
 }
+
+.play-mode-toggle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.play-mode-toggle i {
+  font-size: 24px;
+}
+
 .btn {
   padding: 0 24px;
   height: 45px;
@@ -164,10 +173,7 @@ header {
 .btn:hover {
   opacity: 0.8;
 }
-.hire-me-btn {
-  font-family: "Abrill Fatface", sans-serif;
-  background-color: var(--second-color);
-}
+
 .nav_button span {
   color: var(--black-color);
   cursor: pointer;
@@ -228,18 +234,11 @@ header {
   box-shadow: var(--shadow-1);
 }
 
-.play-btn {
-  padding: 0px;
-  width: 45px;
-  background-color: var(--second-color);
-  box-shadow: var(--shadow-2);
-}
-
 .hero-social-icons {
   position: absolute;
   bottom: 80px;
   display: flex;
-  gap: 50px;
+  gap: 20px;
 }
 .hero-social-icons i {
   opacity: 0;
