@@ -77,14 +77,14 @@ body {
   z-index: 0;
 }
 
-.wrapper .circle-1 {
+.wrapper .circle {
   position: absolute;
-  bottom: 100px;
-  left: 50%;
-  right: 10vw;
+  bottom: 0px;
+  right: 0px;
+  /* right: 10vw; */
   width: 100px;
   height: 100px;
-  background-color: var(--first-color);
+  background-color: #607dba;
   border-radius: 50%;
   z-index: 0;
 }
