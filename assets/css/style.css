@@ -378,11 +378,11 @@ header {
   }
   .col-1 {
     order: 2;
+    margin-top: 19px;
   }
   .col-2 {
     order: 1;
     align-items: center;
-    margin-top: 7px;
   }
   .hero-img-container::before {
     top: 50%;
